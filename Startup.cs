@@ -15,7 +15,7 @@ namespace Chapter1
         {
             app.Run(async (context) =>
             {
-                await context.Response.WriteAsync("Hello, world!");
+                await context.Response.WriteAsync("Hello, world! Let's see if it deploys to dockerhub now.");
             });
         }
     }
